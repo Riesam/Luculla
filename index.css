@@ -146,12 +146,16 @@ div.column {
     overflow: hidden;
     background-color: white;
     display: inline-table;
-    width: 10px; /*was 380px*/
+    width: 200px; /*was 380px*/
     height: 600px;
     padding: 40px;
     margin: 10px;
     border-radius: 12px;
     transition: ease-in-out 0.3s;
+}
+
+img.column {
+    width: 200px;
 }
 
 p.column {
@@ -212,7 +216,6 @@ h1.dior {
     margin-left: auto;
     margin-right: auto;
 }
-
 
 img {
     width: 100%;
@@ -276,7 +279,7 @@ div.column1 {
     color: white;
     display: inline-table;
     width: 20%; /*was 380px*/
-    height: 100px;
+    height: 400px;
     padding: 40px;
     margin: 10px;
     border-radius: 12px;
@@ -284,9 +287,13 @@ div.column1 {
     font-size: medium;
 }
 
-p.column1 {
-    padding-top: 20px;
+h3.column1 {
+    padding-top: 2%;
     padding-bottom: 20px;
+}
+
+h3 {
+    margin: 2%;
 }
 
 .moreOption1:after {
