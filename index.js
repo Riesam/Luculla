@@ -98,3 +98,7 @@ window.onclick = function(event) {
   }
 }
 
+function soldOut() {
+    alert("Sold Out!");
+}
+
